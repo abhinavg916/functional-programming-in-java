@@ -5,4 +5,4 @@
 * Course Exercise - [Questions](https://github.com/abhinavg916/java-functional-programming/blob/master/Exercises.md)
 
 ## Requirements
-* Java Version above 9
+* Java version above 9
