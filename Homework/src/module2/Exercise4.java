@@ -1,4 +1,4 @@
-package module1;
+package module2;
 
 import java.util.List;
 
