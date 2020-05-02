@@ -13,7 +13,7 @@
 ## Course Syllabus
 * 
 ## Exercise Solutions
-* Module 1
+* [Module 1](https://github.com/abhinavg916/java-functional-programming/tree/master/Homework/src/module1)
 * Module 2
 * Module 3
 * Module 4
