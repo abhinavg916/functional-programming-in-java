@@ -10,7 +10,7 @@
 
 ## Course Syllabus
 * 
-## Solutions of the Exercises
+## Exercise Solutions
 * Module 1
 * Module 2
 * Module 3
