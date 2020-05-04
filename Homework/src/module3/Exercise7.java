@@ -8,9 +8,13 @@ public class Exercise7 {
 //		 Using IDE
 		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
 		System.out.println(numbers.stream().map(x -> x * x).reduce(0, (x, y) -> x + y));
+		System.out.println(numbers.stream().map(x -> x * x).reduce(0, Integer::sum));
 
 //		 Using JShell
-//		jshell> numbers.stream().map(number -> number*number).reduce(0, (a,b) -> a+b)
+//		jshell> numbers.stream().map(x -> x*x).reduce(0, (a,b) -> a+b)
+//		$3 ==> 835
+
+//		jshell> numbers.stream().map(x -> x*x).reduce(0, Integer::sum)
 //		$3 ==> 835
 	}
 
