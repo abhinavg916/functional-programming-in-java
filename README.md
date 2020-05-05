@@ -3,9 +3,9 @@
 * It contains all the solutions of exercises of Functional Programming in Java with Lambdas and Streams by in28Minutes
 * Course - [Learn Java Functional Programming with Lambdas and Streams](https://www.udemy.com/course/functional-programming-with-java/)
 * Sections in the course are treated as Module in this repository.
-* Course Exercise- [Questions](https://github.com/abhinavg916/java-functional-programming/blob/master/Exercises.md)
-* __Classwork__ - Contains codes during the lecture
-* __Homework__ - Contains the solutions of the exercises
+* __Lecture__ - Contains codes during the lecture
+* __Solutions__ - Contains the solutions of the exercises
+* Course Exercise Questions - [Exercises](https://github.com/abhinavg916/java-functional-programming/blob/master/Exercises.md)
 
 ## Requirements
 * Java version above 9
@@ -70,4 +70,11 @@
 * Module 6
 * Module 7
 * Module 8
-  
+
+## License
+* This repository is released under the MIT license. In short, this means you are free to use. Attribution is optional but appreciated :)
+
+## Author
+* Name - Abhinav
+* GitHub - [github.com/abhinavg916](https://github.com/abhinavg916)
+* Email - abhinavg916@gmail.com
