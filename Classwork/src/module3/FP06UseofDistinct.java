@@ -3,7 +3,7 @@ package module3;
 
 import java.util.List;
 
-public class FP06 {
+public class FP06UseofDistinct {
 
 	public static void main(String[] args) {
 //		Using IDE

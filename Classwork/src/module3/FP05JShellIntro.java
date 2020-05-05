@@ -1,7 +1,7 @@
 //Task - Find the maximum and minimum number from the list
 package module3;
 
-public class FP05 {
+public class FP05JShellIntro {
 
 	public static void main(String[] args) {
 //			 JShell

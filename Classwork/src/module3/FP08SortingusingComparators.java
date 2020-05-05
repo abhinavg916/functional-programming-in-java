@@ -4,7 +4,7 @@ package module3;
 import java.util.Comparator;
 import java.util.List;
 
-public class FP08 {
+public class FP08SortingusingComparators {
 	public static void main(String[] args) {
 //		Using IDE
 		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);

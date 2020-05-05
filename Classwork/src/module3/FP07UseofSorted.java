@@ -3,7 +3,7 @@ package module3;
 
 import java.util.List;
 
-public class FP07 {
+public class FP07UseofSorted {
 	public static void main(String[] args) {
 //		Using IDE
 		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
