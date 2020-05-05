@@ -3,7 +3,7 @@ package module2;
 
 import java.util.List;
 
-public class FP03 {
+public class FP03UseofFilterandMap {
 	public static void main(String[] args) {
 
 		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
