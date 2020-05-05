@@ -62,10 +62,10 @@
     *	Using Functional Programming in Java Applications
  
 ## Exercise Solutions
-* [Module 1](https://github.com/abhinavg916/java-functional-programming/tree/master/Homework/src/module1)
-* [Module 2](https://github.com/abhinavg916/java-functional-programming/tree/master/Homework/src/module2)
-* [Module 3](https://github.com/abhinavg916/java-functional-programming/tree/master/Homework/src/module3)
-* Module 4
+* [Module 1](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module1)
+* [Module 2](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module2)
+* [Module 3](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module3)
+* [Module 4](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module4)
 * Module 5
 * Module 6
 * Module 7
