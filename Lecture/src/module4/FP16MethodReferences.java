@@ -25,7 +25,7 @@ public class FP16MethodReferences {
 		 
 		courses.stream()
 //		.map(str -> str.toUpperCase())
-		.map(String::toUpperCase)				// Use of Method References for calling over the object and toUpperCase() is not a static method in String class
+		.map(String::toUpperCase)	// Use of Method References for calling over the object and toUpperCase() is not a static method in String class
 		.forEach(FP16MethodReferences::print);  // print is UDF static method	
 		
 		Supplier<String> supplier = () -> new String(); // Lambda Expression which creates the string 
