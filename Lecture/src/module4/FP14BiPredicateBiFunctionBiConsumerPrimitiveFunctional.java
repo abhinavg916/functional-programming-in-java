@@ -3,6 +3,8 @@ package module4;
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
+import java.util.function.BinaryOperator;
+import java.util.function.IntBinaryOperator;
 
 public class FP14BiPredicateBiFunctionBiConsumerPrimitiveFunctional {
 	public static void main(String[] args) {
@@ -28,6 +30,17 @@ public class FP14BiPredicateBiFunctionBiConsumerPrimitiveFunctional {
 
 //		System.out.println(biConsumer.accept(15, "in28Minutes")); // Error because it returns nothing and sysout cannot be used.
 		biConsumer.accept(15, "in28Minutes");
+
+		BinaryOperator<Integer> sumBinaryOperator = (x, y) -> x + y; // Uses Integer (Wrapper) classes
+		IntBinaryOperator intBinaryOperator = (x, y) -> x + y; // Use int data type, No Boxing and Auto-Boxing
+
+//		IntConsumer
+//		IntFunction
+//		IntPredicate
+//		IntSupplier
+//		InttoDoubleFunction
+//		InttoLongFunction
+//		IntUnaryOperator
 
 	}
 }
