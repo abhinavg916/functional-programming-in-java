@@ -6,6 +6,7 @@
 * __Lecture__ - Contains codes during the lecture
 * __Solutions__ - Contains the solutions of the exercises
 * Course Exercise Questions - [Exercises](https://github.com/abhinavg916/java-functional-programming/blob/master/Exercises.md)
+![Certificate](https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png)
 
 ## Requirements
 * Java version above 9
