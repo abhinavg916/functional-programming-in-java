@@ -67,12 +67,9 @@ public class FP15Puzzles {
 //		consumer ==> $Lambda$22/0x0000000800bb5840@3fee9989
 
 		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
-		Predicate<Integer> isEvenPredicate = (Integer x) -> x % 2 == 0; // Type defined for the parameter in lambda
-																		// expression
-		BinaryOperator<Integer> binaryOperator = (Integer x, Integer y) -> x + y; // Type defined for all the parameter
-																					// in lambda expression
-		BinaryOperator<Integer> binaryOperator2 = (x, y) -> x + y; // Type Inference, Compiler automatically infer type
-																	// as 'Integer' defined in Binary Operator definition
+		Predicate<Integer> isEvenPredicate = (Integer x) -> x % 2 == 0; // Type defined for the parameter in lambda expression
+		BinaryOperator<Integer> binaryOperator = (Integer x, Integer y) -> x + y; // Type defined for all the parameter in lambda expression
+		BinaryOperator<Integer> binaryOperator2 = (x, y) -> x + y; // Type Inference, Compiler automatically infer type as 'Integer' defined in Binary Operator definition
 //		BinaryOperator<Integer> binaryOperator3 = (String x, String y) -> x + y; // Compile Error because of wrong type
 
 	}
