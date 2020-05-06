@@ -36,10 +36,12 @@ public class FP11FunctionalInterfaces {
 		// Scenario 3
 		// Extract as local variable for filter(), map(), forEach()
 		Predicate<Integer> isEvenPredicate = x -> x % 2 == 0; // Predicate Function
-		Function<Integer, Integer> squaredMapper = x -> x * x; // Function Function
-		Consumer<Integer> printAction = System.out::println;
+		Function<Integer, Integer> squaredMapper = x -> x * x; // Function Function returns integer as output
+		Function<Integer, String> stringOutputMapper = x -> x + "*"; // Function Function which returns string as output
+		Consumer<? super Integer> printAction = System.out::println;
 
 		numbers.stream().filter(isEvenPredicate).map(squaredMapper).forEach(printAction);
+		numbers.stream().filter(isEvenPredicate).map(stringOutputMapper).forEach(System.out::println);
 
 		// Scenario 4
 		Predicate<Integer> isEvenPredicate2 = new Predicate<Integer>() {
