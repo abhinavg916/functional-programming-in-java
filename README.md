@@ -72,7 +72,7 @@
 * Module 7
 * Module 8
 
-## Certificatoin
+## Certification
 
 ## License
 * This repository is released under the MIT license. In short, this means you are free to use. Attribution is optional but appreciated :)
