@@ -11,7 +11,7 @@
 ## Requirements
 * Java version above 9
 
-## Course Syllabus
+## Contents
 * Unit 1: Introduction to the Functional Programming
     * Functional Programming with Java - Course Overview
     * Functional Programming with Java - Exploring Github Repo and Installations
@@ -71,6 +71,8 @@
 * Module 6
 * Module 7
 * Module 8
+
+## Certification
 
 ## License
 * This repository is released under the MIT license. In short, this means you are free to use. Attribution is optional but appreciated :)
