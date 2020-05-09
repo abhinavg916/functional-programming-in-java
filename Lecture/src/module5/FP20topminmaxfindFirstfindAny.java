@@ -3,6 +3,7 @@ package module5;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 class Course2 {
@@ -74,6 +75,8 @@ public class FP20topminmaxfindFirstfindAny {
 				.comparingInt(Course2::getNoOfStudents)
 				.thenComparing(Course2::getReviewScore)
 				.reversed();
+		Predicate<Course2> reviewScoreLessThan90Predicate = course -> course.getReviewScore() < 90;
+		Predicate<Course2> reviewScoreGreaterThan95Predicate = course -> course.getReviewScore() > 95;
 		
 		// max()
 		System.out.println(courses);
@@ -85,6 +88,32 @@ public class FP20topminmaxfindFirstfindAny {
 		System.out.println(courses);
 		System.out.println(courses.stream().min(comparingByNumberOfStudentsAndReviewScore));
 //		Optional[Microservices:25000:96]
+		
+
+		System.out.println(courses);
+		System.out.println(courses.stream()
+				.filter(reviewScoreLessThan90Predicate)
+				.min(comparingByNumberOfStudentsAndReviewScore)
+				.orElse(new Course2 ("Kubernates", "Cloud", 91, 20000)));
+//		Optional.empty
+//		Kubernates:20000:91
+		
+		//findFirst()
+		System.out.println(courses);
+		System.out.println(courses.stream()
+				.filter(reviewScoreGreaterThan95Predicate)
+				.findFirst()
+				);
+//		Optional[Spring:20000:98]
+		
+		//findAny()
+		System.out.println(courses);
+		System.out.println(courses.stream()
+				.filter(reviewScoreGreaterThan95Predicate)
+				.findAny()
+				);
+//		Optional[Spring:20000:98]
+		
 		
 	}
 
