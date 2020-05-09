@@ -57,7 +57,7 @@ class Course2 {
 	}
 }
 
-public class FP20topminmaxfindFirstfindAnysumaveragecount {
+public class FP20TopMinMaxFindFirstFindAnySumAverageCount {
 	public static void main(String[] args) {
 		List<Course2> courses = List.of(
 				new Course2("Spring", "Framework", 98, 20000), 

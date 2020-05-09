@@ -57,7 +57,7 @@ class Course1 {
 }
 
 
-public class FP19skiplimittakeWhiledropWhile {
+public class FP19SkipLimitTakeWhileDropWhile {
 	public static void main(String[] args) {
 		List<Course1> courses = List.of(
 				new Course1("Spring", "Framework", 98, 20000), 
