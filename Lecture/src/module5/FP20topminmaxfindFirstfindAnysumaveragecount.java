@@ -57,7 +57,7 @@ class Course2 {
 	}
 }
 
-public class FP20topminmaxfindFirstfindAny {
+public class FP20topminmaxfindFirstfindAnysumaveragecount {
 	public static void main(String[] args) {
 		List<Course2> courses = List.of(
 				new Course2("Spring", "Framework", 98, 20000), 
@@ -114,6 +114,50 @@ public class FP20topminmaxfindFirstfindAny {
 				);
 //		Optional[Spring:20000:98]
 		
+		//sum
+		System.out.println(courses);
+		System.out.println(courses.stream()
+				.filter(reviewScoreGreaterThan95Predicate)
+				.mapToInt(Course2::getNoOfStudents)
+				.sum() 		// Finds sum of total no. of students who are in courses of review score > 95
+				);
+//		88000
+		
+//		//average
+		System.out.println(courses);
+		System.out.println(courses.stream()
+				.filter(reviewScoreGreaterThan95Predicate)
+				.mapToInt(Course2::getNoOfStudents)
+				.average()
+				);
+//		OptionalDouble[22000.0]
+
+		//count
+		System.out.println(courses);
+		System.out.println(courses.stream()
+				.filter(reviewScoreGreaterThan95Predicate)
+				.mapToInt(Course2::getNoOfStudents)
+				.count()
+				);
+//		4
+		
+		//max
+		System.out.println(courses);
+		System.out.println(courses.stream()
+		.filter(reviewScoreGreaterThan95Predicate)
+		.mapToInt(Course2::getNoOfStudents)
+				.max()
+				);
+//		OptionalInt[25000]
+		
+		//min()
+		System.out.println(courses);
+		System.out.println(courses.stream()
+				.filter(reviewScoreGreaterThan95Predicate)
+				.mapToInt(Course2::getNoOfStudents)
+				.min()
+				);
+//		OptionalInt[20000]
 		
 	}
 
