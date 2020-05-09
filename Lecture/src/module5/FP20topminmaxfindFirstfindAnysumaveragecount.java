@@ -118,7 +118,7 @@ public class FP20topminmaxfindFirstfindAnysumaveragecount {
 		System.out.println(courses);
 		System.out.println(courses.stream()
 				.filter(reviewScoreGreaterThan95Predicate)
-				.mapToInt(Course2::getNoOfStudents)
+				.mapToInt(Course2::getNoOfStudents) // When sure about primitive return value then use primitive methods for avoiding boxing
 				.sum() 		// Finds sum of total no. of students who are in courses of review score > 95
 				);
 //		88000
