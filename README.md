@@ -11,7 +11,7 @@
 ## Requirements
 * Java version above 9
 
-## Course Syllabus
+## Contents
 * Unit 1: Introduction to the Functional Programming
     * Functional Programming with Java - Course Overview
     * Functional Programming with Java - Exploring Github Repo and Installations
