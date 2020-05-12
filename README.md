@@ -80,4 +80,3 @@
 ## Author
 * Name - Abhinav
 * GitHub - [github.com/abhinavg916](https://github.com/abhinavg916)
-* Email - abhinavg916@gmail.com
