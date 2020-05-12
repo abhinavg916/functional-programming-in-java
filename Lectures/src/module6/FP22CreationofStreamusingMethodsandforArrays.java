@@ -1,6 +1,6 @@
 package module6;
 
-public class FP22StreamofMethods {
+public class FP22CreationofStreamusingMethodsandforArrays {
 
 	public static void main(String[] args) {
 		
@@ -43,6 +43,12 @@ public class FP22StreamofMethods {
 //
 //		jshell> Arrays.stream(numberArray).max()
 //		$6 ==> OptionalInt[15]
+//		
+//		jshell> IntStream.rangeClosed(1,10).sum()
+//		$9 ==> 55
+//		
+//		jshell> IntStream.range(1,10).sum()
+//		$10 ==> 45
 
 	}
 
