@@ -6,6 +6,8 @@
 * __Lecture__ - Contains codes during the lecture
 * __Solutions__ - Contains the solutions of the exercises
 * Course Exercise Questions - [Exercises](https://github.com/abhinavg916/java-functional-programming/blob/master/Exercises.md)
+* Functional Programming Codes - [Functional Codes](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/FunctionalProgrammingCodes.md)
+* JShell Commands Executed - [JShell Codes](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/JShellCommandsExecuted.md)
 ![Certificate](https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png)
 
 ## Requirements
@@ -63,14 +65,12 @@
     *	Using Functional Programming in Java Applications
  
 ## Exercise Solutions
-* [Module 1](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module1)
-* [Module 2](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module2)
-* [Module 3](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module3)
-* [Module 4](https://github.com/abhinavg916/java-functional-programming/tree/master/Solutions/src/module4)
-* Module 5
-* Module 6
-* Module 7
-* Module 8
+* [Module 1](https://github.com/abhinavg916/udemy-java-functional-programming/tree/master/Solutions/src/module1)
+* [Module 2](https://github.com/abhinavg916/udemy-java-functional-programming/tree/master/Solutions/src/module2)
+* [Module 3](https://github.com/abhinavg916/udemy-java-functional-programming/tree/master/Solutions/src/module3)
+* [Module 4](https://github.com/abhinavg916/udemy-java-functional-programming/tree/master/Solutions/src/module4)
+* [Module 6](https://github.com/abhinavg916/udemy-java-functional-programming/tree/master/Solutions/src/module6)
+* [Module 8](https://github.com/abhinavg916/udemy-java-functional-programming/tree/master/Solutions/src/module8)
 
 ## Certification
 
