@@ -1,14 +1,14 @@
 # Java Functional Programming with Lambdas and Streams
 ## General Instructions
 * It contains all the solutions of exercises of Functional Programming in Java with Lambdas and Streams by in28Minutes
-* Course - [Learn Java Functional Programming with Lambdas and Streams](https://www.udemy.com/course/functional-programming-with-java/)
+* __Course__ - [Learn Java Functional Programming with Lambdas and Streams](https://www.udemy.com/course/functional-programming-with-java/)
 * Sections in the course are treated as Module in this repository.
-* __Lecture__ - Contains codes during the lecture
-* __Solutions__ - Contains the solutions of the exercises
-* Course Exercise Questions - [Exercises](https://github.com/abhinavg916/java-functional-programming/blob/master/Exercises.md)
-* Functional Programming Codes - [Functional Codes](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/FunctionalProgrammingCodes.md)
-* JShell Commands Executed - [JShell Codes](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/JShellCommandsExecuted.md)
-![Certificate](https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png)
+* [__Lecture__]() - Contains codes during the lecture
+* [__Solutions__]()_ - Contains the solutions of the exercises
+* [__Functional Programming Codes__](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/FunctionalProgrammingCodes.md)
+* [__JShell Commands Executed__](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/JShellCommandsExecuted.md)
+
+![Udemy Logo](https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png)
 
 ## Requirements
 * Java version above 9
@@ -73,7 +73,7 @@
 * [Module 8](https://github.com/abhinavg916/udemy-java-functional-programming/tree/master/Solutions/src/module8)
 
 ## Certification
-
+![Certificate](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/Java%20Functional%20Programming%20in28Mins%20Udemy%20Certificatoin.jpg)
 ## Author
 * Name - Abhinav
 * GitHub - [github.com/abhinavg916](https://github.com/abhinavg916)
