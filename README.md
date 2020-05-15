@@ -8,8 +8,6 @@
 * [__Functional Programming Codes__](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/FunctionalProgrammingCodes.md) - Contains the list of functions used
 * [__JShell Commands Executed__](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/JShellCommandsExecuted.md) - Contains the list of functions
 
-![Udemy Logo](https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png)
-
 ## Requirements
 * Java version above 9
 
