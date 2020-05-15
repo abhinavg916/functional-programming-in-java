@@ -9,12 +9,13 @@ public class FP27ParallelizationofStreams {
 
 		long time = System.currentTimeMillis();
 		// Sequential
-		// System.out.println(LongStream.range(0, 1000000000).sum()); // 1601 ms
+		System.out.println("Sum of Numbers from 0 to 1000000000");
+		System.out.println(LongStream.range(0, 1000000000).sum()); // 1601 ms
 
 		// Parallelized
-		System.out.println(LongStream.range(0, 1000000000).parallel().sum()); // 188 ms
+//		System.out.println(LongStream.range(0, 1000000000).parallel().sum()); // 188 ms
 
-		System.out.println(System.currentTimeMillis() - time);
+		System.out.println(System.currentTimeMillis() - time + " ms");
 
 //		List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
 //		int sum  = 0;
