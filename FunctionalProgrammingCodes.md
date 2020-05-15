@@ -1,5 +1,6 @@
+# Functional Programming Codes
 ```
-System.out.println("Ranga")
+System.out.println("Abhinav")
 List<Integer> numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
 numbers.stream().reduce(0, (x,y)->x+y)
 numbers.stream().reduce(0, (x,y)->x)
