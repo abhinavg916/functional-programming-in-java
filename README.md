@@ -2,7 +2,7 @@
 ## General Instructions
 * It contains all the solutions of exercises of Functional Programming in Java with Lambdas and Streams by in28Minutes
 * Course - [Learn Java Functional Programming with Lambdas and Streams](https://www.udemy.com/course/functional-programming-with-java/)
-* Sections in the course are treated as __Module__ in this repository.
+* Sections in the course are treated as module in this repository.
 * [Functional Programming Codes](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/FunctionalProgrammingCodes.md) - Contains the list of functions used
 * [JShell Commands Executed](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/JShellCommandsExecuted.md) - Contains the list of functions
 
