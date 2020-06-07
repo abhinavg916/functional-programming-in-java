@@ -11,7 +11,7 @@
 ## Contents
 * Unit 1: Introduction to the Functional Programming
     * Functional Programming with Java - Course Overview
-    * Functional Programming with Java - Exploring Github Repo and Installations
+    * Functional Programming with Java - Exploring GitHub Repo and Installations
 * Unit 2: Introduction to Functional Programming with Java
     * Getting Started with Functional Programming with Java
     * Improving Java Functional Program with filter
