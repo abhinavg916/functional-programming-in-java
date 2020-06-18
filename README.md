@@ -1,7 +1,5 @@
 # Java Functional Programming with Lambdas and Streams
 * Course - [Learn Java Functional Programming with Lambdas and Streams](https://www.udemy.com/course/functional-programming-with-java/)
-* [Functional Programming Codes](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/FunctionalProgrammingCodes.md)
-* [JShell Commands Executed](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/JShellCommandsExecuted.md)
 ![Cover](https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png)
 
 ## Requirements
