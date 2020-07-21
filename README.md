@@ -1,6 +1,6 @@
 # Java Functional Programming with Lambdas and Streams
 * Course - [Learn Java Functional Programming with Lambdas and Streams](https://www.udemy.com/course/functional-programming-with-java/)
-![Cover](https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png)
+![Cover](https://github.com/abhinavg916/udemy-java-functional-programming/blob/master/Cover.jpg)
 
 ## Requirements
 * Java version above 9
