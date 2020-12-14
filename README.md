@@ -54,6 +54,8 @@
     * Playing with Threads using Functional Programming
     *	Using Functional Programming in Java Applications
 
-## Author
+---
+
+# Author
 * Name - Abhinav
 * GitHub - [github.com/abhinavg916](https://github.com/abhinavg916)
